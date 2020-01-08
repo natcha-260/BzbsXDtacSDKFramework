@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
     'BzbsXDtacSDK' => ['*.bundle']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Headers/*.h'
   s.frameworks = 'AVFoundation'
   s.static_framework = true
   s.dependency 'Alamofire'
