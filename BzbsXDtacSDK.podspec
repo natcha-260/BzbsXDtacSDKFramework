@@ -32,6 +32,7 @@ Pod::Spec.new do |s|
   s.swift_version = '5.0'
 
   s.source_files = 'BzbsXDtacSDK.framework/**/*'
+  s.exclude_files = ['**/*.plist','**/BzbsXDtacSDK-umbrella.h']
   
   s.resource_bundles = {
     'BzbsXDtacSDK' => ['*.bundle']
